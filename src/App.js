@@ -3,7 +3,6 @@ import "./App.css";
 import Images from "./components/Images";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
-import HomeScreen from "./MegaManXHomeScreen-2.png";
 import Boomer from "./BoomerKuwanger.gif";
 import Penguin from "./ChillPenguin.gif";
 import Mammoth from "./FlameMammoth.gif";

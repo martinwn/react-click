@@ -18,7 +18,10 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav className="site-header sticky-top py-1">
-          <div className="container d-flex flex-column flex-md-row justify-content-around">
+          <div
+            id="nav"
+            className="container d-flex flex-column flex-md-row justify-content-around"
+          >
             <div>
               <span id="score-keep">
                 Score: {score} | High Score: {highScore}

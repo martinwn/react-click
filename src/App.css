@@ -21,6 +21,10 @@ body {
   animation: blink 300ms steps(4, start) infinite;
 }
 
+#nav div:last-child {
+  min-width: 250px;
+}
+
 .game-card button {
   background-color: transparent;
   border: none;
