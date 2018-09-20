@@ -3,6 +3,16 @@ import "./App.css";
 import Images from "./components/Images";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import HomeScreen from "./MegaManXHomeScreen-2.png";
+import Boomer from "./BoomerKuwanger.gif";
+import Penguin from "./ChillPenguin.gif";
+import Mammoth from "./FlameMammoth.gif";
+import Octopus from "./LaunchOctopus.gif";
+import Sigma from "./Sigma.gif";
+import Mandrill from "./SparkMandrill.gif";
+import Chameleon from "./StingChameleon.gif";
+import Eagle from "./StormEagle.gif";
+import Armadillo from "./ArmoredArmadillo.gif";
 
 class App extends Component {
   state = {
@@ -10,19 +20,16 @@ class App extends Component {
       {
         id: 1,
         clicked: false,
-        srcImage: "/assets/images/ArmoredArmadillo.gif"
+        srcImage: Armadillo
       },
-      { id: 2, clicked: false, srcImage: "/assets/images/BoomerKuwanger.gif" },
-      { id: 3, clicked: false, srcImage: "/assets/images/ChillPenguin.gif" },
-      { id: 4, clicked: false, srcImage: "/assets/images/FlameMammoth.gif" },
-      { id: 5, clicked: false, srcImage: "/assets/images/LaunchOctopus.gif" },
-      { id: 6, clicked: false, srcImage: "/assets/images/Sigma.gif" },
-      { id: 7, clicked: false, srcImage: "/assets/images/SparkMandrill.gif" },
-      { id: 8, clicked: false, srcImage: "/assets/images/StingChameleon.gif" },
-      { id: 9, clicked: false, srcImage: "/assets/images/StormEagle.gif" }
-      // { id: 10, clicked: false, srcImage: "/assets/images/StarFox.gif" },
-      // { id: 11, clicked: false, srcImage: "/assets/images/SuperSmash.gif" },
-      // { id: 12, clicked: false, srcImage: "/assets/images/1080.gif" }
+      { id: 2, clicked: false, srcImage: Boomer },
+      { id: 3, clicked: false, srcImage: Penguin },
+      { id: 4, clicked: false, srcImage: Mammoth },
+      { id: 5, clicked: false, srcImage: Sigma },
+      { id: 6, clicked: false, srcImage: Octopus },
+      { id: 7, clicked: false, srcImage: Mandrill },
+      { id: 8, clicked: false, srcImage: Chameleon },
+      { id: 9, clicked: false, srcImage: Eagle }
     ],
     score: 0,
     highScore: 0,

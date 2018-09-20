@@ -12,7 +12,7 @@ class Image extends Component {
     }
     return (
       <img
-        src={this.props.image.srcImage}
+        src={image.srcImage}
         onClick={() => onImageClick(image)}
         className={imageClasses.join(" ")}
         style={this.styles}

@@ -7,6 +7,7 @@ body {
 #root {
   font-family: "Press Start 2P", cursive;
   height: 100%;
+  background-image: url(./MegaManXHomeScreen-2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
